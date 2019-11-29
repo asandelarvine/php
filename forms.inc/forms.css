@@ -1,0 +1,66 @@
+#body {
+	background-color:grey                                        ;
+	padding-left: 20px;
+}
+#fname {
+	padding-left: 20px;
+	margin-left: 65px;
+}
+#lname {
+	padding: 5px;
+	margin-left: 70px;
+}
+#phone {
+	padding: 5px;
+	margin-left: 40px;
+}
+#male {
+	margin-left: 90px;
+}
+#female {
+	margin-left: 50px;
+}
+#DOB {
+	padding: 3px;
+	margin-left: 50px;
+}
+#address {
+	padding: 6px;
+	margin-left: 90px;
+}
+#lang {
+	margin-left: 150px;
+	margin-top: -20px;
+}
+#hobbies {
+	margin-left: 155px;
+	margin-top: -20px;
+}
+#email {
+	padding: 6px;
+	margin-left: 90px;
+}
+#password-field {
+	padding: 6px;
+  margin-left: 70px;
+
+}
+#retypepassword {
+	padding: 6px;
+	margin-left: 20px;
+}
+#text {
+	margin-left: 150px;
+	margin-top: -20px;
+}
+#btn{
+  background-color:brown;
+  width: 100%;
+  cursor: pointer;
+  align-content: center;
+  }
+
+   
+  
+
+   

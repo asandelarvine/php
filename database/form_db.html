@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form action="insert_into.php" method="POST">
+	
+        <h1>REGISTRATION FORM</h1><br>
+        <div>
+            <b>Firstname:<span style="color:red">*</span></b>
+            <input id="fname" name="firstname" type="text"><br>
+       
+            <br>
+            <b>Lastname:<span style="color:red">*</span></b>
+            <input id="lname"  name="lastname" type="text"><br>
+            <br>
+            <b>Phonenumber:<span style="color:red">*</span></b>
+            <input id="phone"  name="phonenumber" type="number"><br>
+            
+            <br>
+            <b>Gender:<span style="color:red">*</span></b>
+            <input id="male" type="radio" name="gender" value="M">Male
+            <input id="female" type="radio" name="gender" value="F">Female<br>
+            <br>
+            <b>Date of Birth:<span style="color:red">*</span></b>
+            <input id="DOB" type="date" name="date" id="" style="margin-top:5px;"  ><br>
+            <br>
+            <b>Address:
+            <input id="address" type="text" placeholder=".. 10 Nairobi"><br>
+            <br>
+            <b>Language :<span style="color:red">*</span></b>
+        <div  id="lang">
+            <input type="checkbox" style = "margin-left:5px;"  name = "language"  value="html">HTML 
+            <input type="checkbox" style = "margin-left:10px;" name = "language"  value="css">CSS
+            <input type="checkbox" style = "margin-left:10px;" name = "language"  value="php">PHP
+            <input type="checkbox" style = "margin-left:10px;" name = "language"  value="js">JS 
+            <input type="checkbox" style = "margin-left:10px;" name = "language"  value="go">GO
+            <input type="checkbox" style = "margin-left:10px;" name = "language"  value="jquery">JQUERY
+        </div>
+        <br>
+        <br>
+            <b>Hobbies & Talents:<span style="color:red">*</span></b>
+        <div  id="hobbies">
+             <select name="hobbies" id="">
+             <option value="---">
+                 ---
+                <option value="swimming">
+                    Swimming
+                </option>
+                <option value="travelling">
+                    Travelling
+                </option>
+                <option value="dancing">
+                    Dancing
+                </option>
+                <option value="singing">
+                    Singing
+                </option>
+                <option value="reading">
+                    Reading
+                </option>
+                <option value="gaming">
+                    Gaming
+                </option>
+            </select><br>
+        </div>
+            <br>
+            <b>E-mail:<span style="color:red">*</span></b>
+            <input id="email" name="email" style="margin-top:5px;" type="email"><br>
+            <br>
+            <b>Password:<span style="color:red">*</span></b>
+            <input id="password-field" type="password" class="form-control" name="password">
+            <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span> <br>
+            <br>
+            <b>Retype password:<span style="color:red">*</b>
+            <input id="retypepassword"  name="retypepassword" style="margin-top:5px;" type="password"><br>
+            <br>
+            <br>
+            <b>Additional info:<span style="color:red">*</b><br>
+            <textarea id="text" cols="30" name="additionalInfo" rows="10"></textarea><br>
+            <br>
+            <input name="terms and conditions"  id="info" type="checkbox"<b>Terms and Conditions.</b><br>
+            <br>
+            <br>
+        </div>
+    
+        <div>
+            <input type="submit" name="submit" id="btn" value="Register">
+        </div>
+        
+        </form>
+</body>
+</html>
