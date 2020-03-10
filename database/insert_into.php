@@ -17,7 +17,7 @@ if(isset($_POST['submit'])){
 
     
     $yooh = "INSERT INTO form (FIRST_NAME, LAST_NAME, PHONE_NUMBER,	GENDER,	LANGUAGES,	HOBBIES_TALENTS,  E_MAIL,	PASSWORD,	ADDITIONAL_INFO)
-     VALUES ('$firstname','$lastname','$number','$gender','$language','$hobbies','$password','$info';";
+     VALUES ('$firstname','$lastname','$number','$gender','$language','$hobbies','$password','$info')";
     mysqli_query($conn, $yooh);
 
     header("Location:select_from.php");

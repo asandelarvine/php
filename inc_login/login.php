@@ -6,14 +6,16 @@
 		<div class="container">
 			<div class="form-row">
 				<div class="form-group">
-					<label for="exampleInputUsername">User name</label> <input class="form-control" id="exampleInputUsername" placeholder="Enter User name" type="username">
+					<label for="exampleInputUsername">User name</label>
+				    <input class="form-control" id="exampleInputUsername" placeholder="Enter User name" type="username">
 				</div>
 			</div>
 		</div>
 		<div class="container">
 			<div class="form-row">
 				<div class="form-group">
-					<label for="exampleInputPassword1">Password</label> <input class="form-control" id="exampleInputPassword1" placeholder="Password" type="password">
+					<label for="exampleInputPassword1">Password</label>          
+					<input class="form-control" id="exampleInputPassword1" placeholder="Password" type="password">
 				</div>
 			</div>
 		</div>

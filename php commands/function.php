@@ -6,6 +6,7 @@ function yooh($a){
         echo "it is NOT PALIDROME";
     }
 }
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
